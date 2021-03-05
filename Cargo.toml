@@ -12,8 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
-network-reader = { git = "https://github.com/jam1garner/network-reader.git" }
-
+network-reader-adapter = { git = "https://github.com/jam1garner/network-reader.git" }
 [profile.dev]
 panic = "abort"
 
